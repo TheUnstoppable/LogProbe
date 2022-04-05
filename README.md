@@ -9,7 +9,7 @@ Argument list of LogProbe follows: `[IP:Port] <--noformat> <--bufsize XXXX> <--i
 - `--include[number]`: Includes specified tag. (Adding at least 1 inclusion will exclude all lines, except for included ones.)
 - `--exclude[number]`: Excludes specified tag. (Adding at least 1 inclusion will override all exclusions defined with this switch.) 
 
-*Arguments in [square brackets] are required, arguments in <angle brackets> are optional, arguments ending with ... can be used multiple times.*  
+*Arguments in [square brackets] are required, arguments in \<angle brackets\> are optional, arguments ending with ... can be used multiple times.*  
 **Example**: `LogProbe.exe 127.0.0.1:7025 --bufsize 2048 --include003 --include999` *(This example prints only console outputs, and a custom type tagged 999 with 2 KBs of buffer size.)*  
 
 ## License?
